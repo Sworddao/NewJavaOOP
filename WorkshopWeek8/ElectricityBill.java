@@ -11,11 +11,11 @@ public class ElectricityBill{
     }
     
     public double getUnitsConsumed(){
-        return unitsConsumed;
+        return this.unitsConsumed = unitsConsumed;
     }
     
     public String getConsumerName(){
-        return consumerName;
+        return this.consumerName = consumerName;
     }
     
     public void setUnitsConsumed(int unitsConsumed){

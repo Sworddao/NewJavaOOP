@@ -15,7 +15,7 @@ public class Patient{
     }
     
     public int getDaysAdmitted(){
-        return daysAdmitted;
+        return this.daysAdmitted = daysAdmitted;
     }
     
     public void setDaysAdmitted(int daysAdmitted){

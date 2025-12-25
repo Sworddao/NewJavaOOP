@@ -13,7 +13,7 @@ public class Employee{
     }
     
     public double getBasicSalary(){
-        return basicSalary;
+        return this.basicSalary = basicSalary;
     }
     
     public void displaySalary(){

@@ -13,7 +13,7 @@ public class ShoppingCart{
     }
     
     public int getQuantity(){
-        return quantity;
+        return this.quantity = quantity;
     }
     
     public void setQuantity(int quantity){

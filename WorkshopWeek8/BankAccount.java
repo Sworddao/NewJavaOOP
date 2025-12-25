@@ -13,7 +13,7 @@ public class BankAccount{
     }
     
     public double getBalance(){
-        return balance;
+        return this.balance = balance;
     }
     
     public void deposit(double amount){
