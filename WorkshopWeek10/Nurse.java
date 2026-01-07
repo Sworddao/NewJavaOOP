@@ -2,8 +2,8 @@ package WorkshopWeek10;
 
 public class Nurse extends Person{
     
-    public String shift;
-    public double extraAllowance;
+    private String shift;
+    private double extraAllowance;
     
     public Nurse(int id, String name, String shift, double extraAllowance){
         super(id, name);

@@ -2,8 +2,8 @@ package WorkshopWeek10;
 
 public class Doctor extends Person{
     
-    public String specialization;
-    public double consultationFee;
+    private String specialization;
+    private double consultationFee;
     
     public Doctor(int id, String name, String specialization, double consultationFee){
         super(id, name);
