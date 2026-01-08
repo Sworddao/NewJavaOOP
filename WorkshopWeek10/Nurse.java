@@ -33,6 +33,7 @@ public class Nurse extends Person{
         return baseSalary + this.extraAllowance;
     }
     
+    @Override
     public String toString(){
         return super.toString() + "\nShift: " + shift + "\nExtra Allowance: " + extraAllowance + "\nSalary: " + calculateSalary();
     }

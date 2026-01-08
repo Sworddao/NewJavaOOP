@@ -16,6 +16,7 @@ public class PremiumOrder extends Order{
         return calculateFinalAmount() - discountAmount;
     }
     
+    @Override
     public String toString(){
         return super.toString() + "\nFinal Amount: " + calculateFinalAmount();
     }

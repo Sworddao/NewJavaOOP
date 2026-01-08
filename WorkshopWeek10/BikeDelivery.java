@@ -16,6 +16,7 @@ public class BikeDelivery extends DeliveryPartner{
         return calculatePayment() + (extraOrders * 50);
     }
     
+    @Override
     public String toString(){
         return super.toString() + "\nPayment: " + calculatePayment(); 
     }

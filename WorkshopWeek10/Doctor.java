@@ -36,6 +36,7 @@ public class Doctor extends Person{
         return calculateSalary() + (emergencyCases * 100);
     }
     
+    @Override
     public String toString(){
         return super.toString() + "\nSpecialization: " + this.specialization + "\nConsultation Fee: " + this.consultationFee + "\nSalary: " + calculateSalary();
     }

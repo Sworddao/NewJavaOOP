@@ -15,6 +15,7 @@ public class SavingsAccount extends Account{
         return getBalance() * rate;
     }
     
+    @Override
     public String toString(){
         return super.toString() + "\nBase Interest Amount: "+ calculateInterest();
         
