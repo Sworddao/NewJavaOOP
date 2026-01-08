@@ -6,6 +6,7 @@ public class CurrentAccount extends Account {
         super(accountNo, holderName, balance);
     }
 
+    @Override
     public double calculateInterest() {
         return super.calculateInterest(); // minimal interest
     }

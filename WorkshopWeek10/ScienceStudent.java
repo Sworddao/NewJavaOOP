@@ -6,6 +6,7 @@ public class ScienceStudent extends Student{
         super(rollNo, name, marks);
     }
     
+    @Override
     public String calculateResult(){
         super.calculateResult();
         return (getMarks() >= 50) ? "Passed in Science" : "Failed";

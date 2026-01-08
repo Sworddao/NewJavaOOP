@@ -6,6 +6,7 @@ public class CarDelivery extends DeliveryPartner{
         super(partnerID, name, basePay);
     }
     
+    @Override
     public double calculatePayment(){
         return super.calculatePayment() + 1000;
     }

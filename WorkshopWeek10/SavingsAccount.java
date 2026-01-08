@@ -6,6 +6,7 @@ public class SavingsAccount extends Account{
         super(accountNo, holderName, balance);
     }
     
+    @Override
     public double calculateInterest(){
         return super.calculateInterest() + (getBalance() * 0.03); //extra 3%
     }

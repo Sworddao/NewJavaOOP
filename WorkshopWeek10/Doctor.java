@@ -27,6 +27,7 @@ public class Doctor extends Person{
         this.consultationFee = newConsultationFee;
     }
     
+    @Override
     public double calculateSalary(){
         return consultationFee * 15;
     }

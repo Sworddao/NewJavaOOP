@@ -6,7 +6,8 @@ public class ManagementStudent extends Student{
         super(rollNo, name, marks);
     }
     
-    public String calcualteResult(){
+    @Override
+    public String calculateResult(){
         super.calculateResult();
         return (getMarks() >= 35) ? "Passed" : "Failed";
     }

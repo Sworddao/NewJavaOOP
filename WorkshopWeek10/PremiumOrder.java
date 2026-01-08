@@ -6,6 +6,7 @@ public class PremiumOrder extends Order{
         super(orderID, customerName, amount);
     }
     
+    @Override
     public double calculateFinalAmount(){
         super.calculateFinalAmount();
         return getAmount() + 70; // premium charges..

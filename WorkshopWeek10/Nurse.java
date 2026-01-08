@@ -27,6 +27,7 @@ public class Nurse extends Person{
         this.extraAllowance = newExtraAllowance;
     }
     
+    @Override
     public double calculateSalary(){
         double baseSalary = 30000;
         return baseSalary + this.extraAllowance;
