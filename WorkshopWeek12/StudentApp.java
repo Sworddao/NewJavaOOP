@@ -7,8 +7,15 @@ public class StudentApp {
 
     public static void main(String[] args) {
         addData();
+        System.out.println("After Adding Data:");
+        displayData();
+
         removeData();
+        System.out.println("\nAfter Removing Gaurav:");
+        displayData();
+
         updateData();
+        System.out.println("\nAfter Updating Data:");
         displayData();
     }
 
@@ -31,6 +38,8 @@ public class StudentApp {
     }
 
     public static void updateData() {
+
+        // Change Rahul's group
         for (Student s : students) {
             if (s.getName().equals("Rahul")) {
                 s.setGroup("L1N2");
@@ -38,6 +47,7 @@ public class StudentApp {
             }
         }
 
+        // Change Ayush → Aayush
         for (Student s : students) {
             if (s.getName().equals("Ayush")) {
                 s.setName("Aayush");
